@@ -77,8 +77,9 @@ namespace AirStream
                 } 
                 ms.Position = 0;
                 ShowPhoto(ms.ToArray());
+                //Testing a comment
             }
-        }
+        } 
 
         private async void ShowPhoto(byte[] photo)
         {
